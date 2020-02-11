@@ -18,6 +18,17 @@ def max_number(num1, num2, num3):
     else:
         return "It's a tie!"
 
+#refactored as class:
+class MyClass():
+    def max_number(num1, num2, num3):
+        if num1 > num2 and num1 > num3:
+            return num1
+        elif num2 > mum1 and num2 > num3:
+            return num2
+        elif num3 > num1 and num3 > num2:
+            return num3
+        else:
+            return "It's a tie!"
 
 
 #divisible by ten function:
